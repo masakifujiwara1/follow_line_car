@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='line_plane'>
+    <model name='spectrum_plane'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+		<uri>model://line_plane/line_plane.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+    </model>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
