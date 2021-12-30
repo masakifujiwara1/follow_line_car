@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+<model name="rule2019">
+  <pose>0 0 0 0 0 0</pose>
+    <link name="link">
+      <inertial>
+        <mass>0.0562</mass>
+        <inertia>
+          <ixx>0.293</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.005</iyy>
+          <iyz>0.0</iyz>
+          <izz>0.297</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+	  <mesh>
+		  <uri>model://rule2019/rule2019.dae</uri>	
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+		  <uri>model://rule2019/rule2019.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
